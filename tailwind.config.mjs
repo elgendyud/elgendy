@@ -10,6 +10,19 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        purpleColor : "#bd6ad5",
+        yellowColor : "#feaf48",
+        mixColor: "linear-gradient(to left, #bd6ad5, #feaf48)"
+      },
+      backgroundImage: {
+        mixColor: "linear-gradient(to left, #bd6ad5, #feaf48)",
+      },
+      spacing: {
+        5: '5px',
+        28: '28px',
+      },
+      transformOrigin: {
+        center: 'center',
       },
     },
   },
